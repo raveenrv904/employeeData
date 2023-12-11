@@ -1,0 +1,56 @@
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user__container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 1307px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 2px 16px 0px rgba(153, 155, 168, 0.12);
+}
+
+.user__container-actions {
+  color: #98a9bc;
+  display: flex;
+  gap: 15px;
+}
+
+.user__container-name-title,
+.user__container-eid-title,
+.user__container-dept-title,
+.user__container-salary-title {
+  color: #383838;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
+
+/* .user__container-name-title {
+  padding-left: 20px;
+}
+
+.user__container-eid-title {
+  padding-left: 5px;
+}
+
+.user__container-salary-title {
+  padding-right: 20px;
+} */
+
+.user__container-other {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}

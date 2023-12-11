@@ -1,0 +1,153 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.home__container {
+  z-index: 999999;
+  width: 30.25rem;
+  background-color: #fff;
+  padding: 28px 32px;
+  border-radius: 13px;
+  border: 1px solid var(--light-storm-grey-90, #dfe3e8);
+  background: var(--light-grayscale-100, #fff);
+}
+
+.home__container-top--title {
+  color: #000;
+
+  /* ⠇/Neutral/Headline-(Semibold) */
+  font-family: Inter;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 1.4875rem */
+  margin-bottom: 40px;
+}
+.home__container-bottom-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home__container-bottom-form--name-title,
+.home__container-bottom-form--eid-title,
+.home__container-bottom-form--de--dob-title,
+.home__container-bottom-form--de--experience-title,
+.home__container-bottom-form--sd-department-title,
+.home__container-bottom-form--sd-salary-title,
+.home__container-bottom-form--address-title {
+  color: var(--light-storm-grey-50, #6b7888);
+
+  /* Basic/Text-sm-Regular */
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.home__container-bottom-form--eid,
+.home__container-bottom-form--name,
+.home__container-bottom-form--address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-self: stretch;
+  margin-bottom: 16px;
+}
+
+.home__container-bottom-form--de,
+.home__container-bottom-form--sd {
+  display: flex;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.home__container-bottom-form--eid-inputBox,
+.home__container-bottom-form--name-inputBox,
+.home__container-bottom-form--address-inputBox {
+  display: flex;
+  height: 40px;
+  padding: 4px 3px 4px 12px;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  outline: none;
+  align-self: stretch;
+  border-radius: 6px;
+  border: 1px solid var(--light-grayscale-90, #e2e2e2);
+  background: var(--light-grayscale-100, #fff);
+}
+.home__container-bottom-form--de--dob-inputBox,
+.home__container-bottom-form--de--experience-inputBox,
+.home__container-bottom-form--sd-department-inputBox,
+.home__container-bottom-form--sd-salary-inputBox {
+  display: flex;
+  height: 40px;
+  padding: 4px 3px 4px 12px;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  outline: none;
+  align-self: stretch;
+  border-radius: 6px;
+  border: 1px solid var(--light-grayscale-90, #e2e2e2);
+  background: var(--light-grayscale-100, #fff);
+}
+.home__container-bottom-form--de--dob-inputBox {
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid var(--light-grayscale-90, #e2e2e2);
+  height: 40px;
+}
+
+.home__container-bottom-form--de--dob,
+.home__container-bottom-form--de--experience,
+.home__container-bottom-form--sd-department,
+.home__container-bottom-form--sd-salary {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__container-bottom-form--de--dob-title,
+.home__container-bottom-form--de--experience-title,
+.home__container-bottom-form--sd-department-title,
+.home__container-bottom-form--sd-salary-title {
+  margin-bottom: 10px;
+}
+
+.home__container-bottom-button {
+  display: flex;
+}
+
+.home__container-bottom-button-reset {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--light-storm-grey-80, #bfc8d2);
+  cursor: pointer;
+}
+.home__container-bottom-button-submit {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 4px;
+  background: var(--light-storm-grey-3, #0a0b0d);
+  margin-left: 10px;
+  cursor: pointer;
+}
